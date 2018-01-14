@@ -5,12 +5,12 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": ""
+    "text": "Nick Xitco"
   },
   "text": {
     "more": "* Not every Spotify artist, only the ~1.4 million connected through the main network of artists.",
     "intro": "One of the first drafts of a map of every* Spotify artist, connected by each of their related artists that you can view on the artist\u0027s page.\\\n\nCurrently the site is under heavy construction while I start to work out the kinks of online, large, million node graphs.",
-    "title": ""
+    "title": "1029 Artist Map"
   },
   "legend": {
     "edgeLabel": "Spotify Related Artist",
