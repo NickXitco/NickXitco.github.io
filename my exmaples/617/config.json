@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Nick Xitco"
+  },
+  "text": {
+    "more": "* Not every Spotify artist, only the ~1.4 million connected through the main network of artists.",
+    "intro": "One of the first drafts of a map of every* Spotify artist, connected by each of their related artists that you can view on the artist\u0027s page.\\\n\nCurrently the site is under heavy construction while I start to work out the kinks of online, large, million node graphs.",
+    "title": "617 Artist Map"
+  },
+  "legend": {
+    "edgeLabel": "Spotify Related Artist",
+    "colorLabel": "Modularity (Eventually Genre)",
+    "nodeLabel": "Artist"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
