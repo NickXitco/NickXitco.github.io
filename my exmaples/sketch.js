@@ -2,7 +2,7 @@ let vertices = [];
 let edges = [];
 const width = window.innerWidth;
 const height = window.innerHeight;
-const numVertices = 100;
+const numVertices = 25;
 const tol = 0;
 let step = 0.010;
 
